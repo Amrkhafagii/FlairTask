@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "cypress": "^13.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/StepDefinitions/**",
+    "filterSpecs": true,
+    "omitFiltered": true
+  }
+}
